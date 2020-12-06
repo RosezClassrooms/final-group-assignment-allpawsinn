@@ -6,3 +6,13 @@ They can be used in two separate problems, on using each, or in the same problem
 
 Please select a problem/problems that are managable with regards to successful implementation.
 When submitting your repository, please edit this readMe file to clearly describe the applications you have designed and mention what patterns you have chosen to you for them.
+
+
+
+#Note to Professor
+ Before you cancelled the strategy pattern homework, we were completed it. If you can check it we did it right or not, it would be so benefical.
+#Instructions
+in order to run different pattern these run command can be copy and paste to .replit
+run = "python3 car_builder.py"
+run = "python3 pc_facade.py"
+run = "python3 strategy_patern.py"
