@@ -20,7 +20,7 @@ We choose builder pattern to develop car shopping application because according 
 #Facade pattern:
 For the facade pattern, we implemented a computer system platform that have the main components in the pc, CPU, GPU, RAM and Power Supply. Our system simulates a PC that you can start it, boost the components' frequency, print the results and if the existing power supply is not enough to run the PC. You can change the PSU in order to build a fully functional PC.
 
-#Why Facede pattern?
+#Why Facade pattern?
 A computer has a complex subsystem that contains lots of unique parts, like CPU, RAM, GPU etc. However in order to run a powerful pc you need a decent power supply unit to deliver enough power to sysyem. Façade pattern exactly solves that problem for us, our program deal with lots of complex parts with unique features however the client only deals with simple things that client only cares about. While each part has many different features to choose, a client generally only cares about whether pc is running or not. 
 
 #Note to Professor:
