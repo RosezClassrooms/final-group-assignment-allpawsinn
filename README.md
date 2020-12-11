@@ -8,13 +8,16 @@ Please select a problem/problems that are managable with regards to successful i
 When submitting your repository, please edit this readMe file to clearly describe the applications you have designed and mention what patterns you have chosen to you for them.
 
 
-#patterns
+#Patterns
 We chose builder and facade patterns
 
-#builder pattern
+#Builder pattern
 For the builder pattern, we assumed we are car retailer and to provide customers to better service we preapared a program that is responsible for creating cars in different circumstances.For example, if customer wants to buy Racing car, he/she can customize the car with a few options like brand, horse power, engine, color etc.
 
-#facade pattern
+#Why builder pattern?
+We choose builder pattern to develop car shopping application because according to our application users should able to create different representations with same construction process. IIf we did not choose the builder pattern, we would have to create a different car construction method for each representation, which means we do a lot of repetitions on our code. In addition, whenever the car seller added a new feature, we had to change our code for each added feature. With the help of builder pattern, we make our program automaticly extensible.
+
+#Facade pattern
 For the facade pattern, we implemented a computer system platform that have the main components in the pc, CPU, GPU, RAM and Power Supply. Our system simulates a PC that you can start it, boost the components' frequency, print the results and if the existing power supply is not enough to run the PC. You can change the PSU in order to build a fully functional PC.
 
 #Note to Professor
