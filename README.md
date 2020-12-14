@@ -8,26 +8,19 @@ Please select a problem/problems that are managable with regards to successful i
 When submitting your repository, please edit this readMe file to clearly describe the applications you have designed and mention what patterns you have chosen to you for them.
 
 
-#Patterns:
-We chose builder and facade patterns
+#patterns
+We chose strategy and command patterns
 
-#Builder pattern:
-For the builder pattern, we assumed we are car retailer and to provide customers to better service we preapared a program that is responsible for creating cars in different circumstances.For example, if customer wants to buy Racing car, he/she can customize the car with a few options like brand, horse power, engine, color etc.
+#strategy pattern
+In a busy period, it is very important for students and teachers to keep their anxiety, health, nutrition,rest and efficiency levels under control. Just keeping these levels under control is not enough, keeping the levels in control while working on the lessons should be done on time for the assignments. In this direction, we decided to write a program that allows students to choose a strategy to finish their assignments on time according to the levels we have just mentioned. To do this, we needed algorithms that student could select during run-time. That's why we decided to use strategy pattern. With the help of Strategy pattern, we created algorithm families in order for students to work more efficiently in their lessons.
 
-#Why builder pattern?
-We choose builder pattern to develop car shopping application because according to our application users should able to create different representations with same construction process. If we did not choose the builder pattern, we would have to create a different car construction method for each representation, which means we do a lot of repetitions on our code. In addition, whenever the car seller added a new feature, we had to change our code for each added feature. With the help of builder pattern, we make our program automatically extensible.
+#command pattern
+Coronavirus Pandemic has changed our life for almost one year, and it brought many problems in our life, especially to public places like stores, cafes, etc. Letting too much customer into stores could be dangerous for everyone in the store, to prevent that stores should monitor the customer count and make a limitation, to resolve that problem we implemented a python program that counts customers in a store by adding, or substracting every customer, and opens or closes light according to command. We implemented that program by using command pattern since it suits perfect to our problem.
 
-#Facade pattern:
-For the facade pattern, we implemented a computer system platform that have the main components in the pc, CPU, GPU, RAM and Power Supply. Our system simulates a PC that you can start it, boost the components' frequency, print the results and if the existing power supply is not enough to run the PC. You can change the PSU in order to build a fully functional PC.
 
-#Why Facade pattern?
-A computer has a complex subsystem that contains lots of unique parts, like CPU, RAM, GPU etc. However in order to run a powerful pc you need a decent power supply unit to deliver enough power to sysyem. Façade pattern exactly solves that problem for us, our program deal with lots of complex parts with unique features however the client only deals with simple things that client only cares about. While each part has many different features to choose, a client generally only cares about whether pc is running or not. 
-
-#Note to Professor:
- Before you cancelled the strategy pattern homework, we were completed it. If you can check it we did it right or not, it would be so benefical.
  
-#Instructions:
+#Instructions
 in order to run different pattern these run command can be copy and paste to .replit
-run = "python3 car_builder.py"
-run = "python3 pc_facade.py"
+
 run = "python3 strategy_patern.py"
+run = "python3 store_command.py"
